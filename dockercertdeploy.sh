@@ -1,4 +1,11 @@
 #!/bin/bash
+#
+# This script will deploy to /usr/local/appli/config/cacerts the certificate DigiCertGlobalRootG2.crt inside a docker container
+# With this script you can also restart the container and get some useful informartion
+#
+# josemedeirosdealmeida@gmail.com
+# Jose Almeida
+
 RED='\033[0;41;30m'
 STD='\033[0;0;39m'
 
@@ -164,6 +171,3 @@ do
         show_menus
         read_options
 done
-
-# josemedeirosdealmeida@gmail.com
-# Jose Almeida
